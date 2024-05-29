@@ -3,7 +3,7 @@
 This is 2nd iteration of the AI generated (ChatGPT-4o) concept to code of the world's worst video game, "The Waiting Room", this time in HTML5.
 
 To see version 2:
-http://thewaitingroomsimulator.com/V2
+[http://thewaitingroomsimulator.com/V2](http://thewaitingroomsimulator.com/v2/)
 
 The website is hosted on AWS LightSail.
 
