@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-N8XPQ30884"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-N8XPQ30884');
+</script>
+    <link rel="icon" type="image/x-icon" href="http://TheWaitingRoomSimulator.com/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="The Waiting Room Simulator">
+    <meta property="og:description" content="An AI generated Waiting Room Simulator.">
+    <meta property="og:image" content="http://TheWaitingRoomSimulator.com/waiting_room.jpg">
+    <meta property="og:url" content="http://TheWaitingRoomSimulator.com/v2">
+    <meta property="og:type" content="website">
+    <script src="https://cdn.jsdelivr.net/npm/phaser@3.55.2/dist/phaser.js"></script>
+    <style>
+        body { 
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+            background-color: #000; /* Background color to match the game */
+        }
+        #game-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        canvas { 
+            display: block; 
+        }
+        h1 {
+            color: white;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .welcome-screen {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            color: white;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .welcome-screen button {
+            font-family: 'Courier New', Courier, monospace;
+            padding: 10px 20px;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="game-container">
+        <div class="welcome-screen" id="welcome-screen">
+            <h1>Welcome to the Waiting Room</h1>
+            <button id="check-in-button">Check In</button>
+        </div>
+        <div id="game"></div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
