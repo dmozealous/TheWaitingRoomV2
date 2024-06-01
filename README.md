@@ -53,4 +53,3 @@ Original game idea can be found here: [https://github.com/dmozealous/TheWaitingR
 ## Total Number of Interactions
 We have had **30 interactions** in this chat, including requests, code updates, and troubleshooting.
 
-If there is anything specific you'd like to revisit or further enhance, please let me know!
