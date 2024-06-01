@@ -9,6 +9,8 @@ The website is hosted on AWS LightSail.
 
 The test, ask ChatGPT to come up with an idea for a new game, then test if ChatGPT-4o could do all of the coding, image, and sound generation for the game.
 
+Original game idea can be found here: [https://github.com/dmozealous/TheWaitingRoom/blob/main/README.md](https://github.com/dmozealous/TheWaitingRoom/blob/main/README.md)
+
 # Summary of Chat Interactions
 
 ## Initial Request
