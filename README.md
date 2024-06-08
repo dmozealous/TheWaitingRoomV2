@@ -1,4 +1,4 @@
-# TheWaitingRoomV2
+# The Waiting Room V2
 
 This is 2nd iteration of the AI generated (ChatGPT-4o) concept to code of the world's worst video game, "The Waiting Room", this time in HTML5.
 
